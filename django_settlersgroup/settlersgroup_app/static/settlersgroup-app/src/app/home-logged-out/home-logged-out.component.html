@@ -1,0 +1,89 @@
+<section class="home-logged-out" (scroll)="onWindowScroll($event)">
+    <app-header></app-header>
+    <div class="sticky-nav" id="sticky-nav">
+        <button type="button" class="btn btn-secondary" (click)="scrollToTop()">Home</button>
+        <button type="button" class="btn btn-secondary" (click)="scrollToAboutUs()">O nas</button>
+        <a><button type="button" class="btn btn-secondary" (click)="openDialog()">Dla pracownika</button></a>
+        <button type="button" class="btn btn-secondary" (click)="scrollToGallery()">Galeria</button>
+        <a><button type="button" class="btn btn-secondary">Kontakt</button></a>
+    </div>
+
+    <div class="about-us" id="about-us">
+        <h1>O nas</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="icon">
+                    <img src="/static/images/pencils.jpg">
+                    <h5>Wycena i projekt</h5>
+                </div>
+                <div class="icon">
+                    <img src="/static/images/helmet.jpg">
+                    <h5>Doświadczeni pracownicy</h5>
+                </div>
+                <div class="icon">
+                    <img src="/static/images/brush.jpg">
+                    <h5>Renowacja, budowa lub rozbiórka</h5>
+                </div>
+                <div class="icon">
+                    <img src="/static/images/house.jpg">
+                    <h5>Jakość i bezpieczeństwo</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container gallery" id="gallery">
+        <h1>Galeria</h1>
+        <div class="d-flex justify-content-around">
+            <div class="row">
+                <div class="card" (click)="openDialog()">
+                    <img src="/static/images/constructionplace.jpg">
+                    <p>Nazwa miejsca/pracy<br/>
+                        Koszt:<br/>
+                        Zakres prac:
+                     </p>
+                </div>
+                <div class="card" (click)="openDialog()">
+                    <img src="/static/images/constructionplace.jpg">
+                    <p>Nazwa miejsca/pracy<br/>
+                       Koszt:<br/>
+                       Zakres prac:
+                    </p>
+                </div>
+                <div class="card" (click)="openDialog()">
+                    <img src="/static/images/constructionplace.jpg">
+                    <p>Nazwa miejsca/pracy<br/>
+                       Koszt:<br/>
+                       Zakres prac:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col col-2">
+                    <p class="address">SettlersGroup<br/>settlersgroup@settlers.com<br/>666-666-666<br/>
+                    Nazwa ulicy 1/1<br/>Gotteborg<br/>Szwecja</p>
+                </div>
+                <div class="col col-2">
+                    <a href="#" (click)="scrollToTop()">Home</a>
+                    <a (click)="scrollToAboutUs()">O nas</a>
+                    <a (click)="openDialog()">Dla pracownika</a>
+                    <a (click)="openDialog()">Dla klienta</a>
+                    <a (click)="scrollToGallery()">Galeria</a>
+                    <a href="#">Kontakt</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="author">dorota.koperkiewicz@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

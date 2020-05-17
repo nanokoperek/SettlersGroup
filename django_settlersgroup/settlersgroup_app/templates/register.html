@@ -1,0 +1,52 @@
+<!--<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SettlersGroup</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet/scss" href="../static/settlersgroup-app/src/styles.scss">
+    <link rel="stylesheet/scss" href="../static/settlersgroup-app/src/app/styles/registerform.scss">
+</head>
+
+<body>-->
+    <!--<app-root></app-root>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/main-es2015.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/main-es5.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/runtime-es2015.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/runtime-es5.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/polyfills-es2015.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/polyfills-es5.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/vendor-es2015.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/vendor-es5.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/styles-es2015.js"></script>
+    <script type="text/javascript" src="../static/settlersgroup-app/dist/settlersgroup-app/styles-es5.js"></script>-->
+    {% load crispy_forms_tags %}
+      {% block content %}
+          <div class="content-section">
+            <form method="POST">
+              {% csrf_token %}
+              <fieldset class="form-group">
+                {{ form.as_p }}
+              </fieldset>
+              <button class="btn btn-secondary" type="button">Sign up</button>
+            </form>
+          </div>
+      {% endblock %}
+<!--</body>
+
+</html>
+
+<div class="container">
+          <div class="content-section">
+            <form method="POST">
+              {% csrf_token %}
+              <fieldset class="form-group">
+                {{ form|crispy }}
+              </fieldset>
+              <button type="button">Utwórz użytkownika</button>
+            </form>
+          </div>
+        </div>-->

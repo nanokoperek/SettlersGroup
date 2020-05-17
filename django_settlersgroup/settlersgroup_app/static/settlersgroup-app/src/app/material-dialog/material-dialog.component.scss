@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+.dialog-container{
+    width: 400px;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding-bottom: .7em;
+}
+
+label{
+    padding-right: 1em;
+}
+
+.input-login{
+    padding-bottom: .8em;
+}
+
+.login{
+    display: table;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-primary{
+    background-color: #002266 !important;
+    width: 90px;
+    margin-right: .5em;
+    border-color: #002266 !important;
+    opacity: .7;
+}
+
+.btn-primary:hover{
+    opacity: 1;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0 0 0;
+}

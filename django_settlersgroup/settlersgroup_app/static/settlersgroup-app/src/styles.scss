@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+//@import '../';
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+/*#id_username{
+    width: 450px;
+}
+
+#div_id_name{
+    width: 35%;
+    display: inline-block;
+}
+
+#id_phone_number, #id_email{
+    width: 300px;
+}
+
+#div_id_street{
+    width: 30%;
+    display: inline-block;
+}
+
+#div_id_building_number{
+    width: 12%;
+    display: inline-block;
+}
+
+#div_id_apartament_number{
+    width: 45%;
+    display: inline-block;
+}
+
+#id_apartament_number{
+    width: 130px;
+}
+
+#div_id_city{
+    width: 30%;
+    display: inline-block;
+}
+
+#div_id_post_code{
+    width: 50%;
+    display: inline-block;
+}
+
+#id_post_code{
+    width: 137px;
+}
+
+#id_password1, #id_password2{
+    width: 335px;
+}
+
+@media(max-width: 800px){
+    #id_username, #div_id_name, #id_phone_number, #id_email, #id_apartament_number, 
+    #id_post_code, #id_password1, #id_password2{
+        width: 100%;
+    }
+    #div_id_street, #div_id_building_number, #div_id_apartament_number, #div_id_post_code, #div_id_city{
+        width: 100%;
+        display: block;
+    }
+}*/
